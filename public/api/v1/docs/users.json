@@ -13,6 +13,13 @@
           "parameters": [
             {
               "paramType": "query",
+              "name": "nested_id",
+              "type": "integer",
+              "description": "Team Id",
+              "required": false
+            },
+            {
+              "paramType": "query",
               "name": "page",
               "type": "integer",
               "description": "Page number",
